@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmIntegrationTestFakeAuthentication.Server", "Server\BlazorWasmIntegrationTestFakeAuthentication.Server.csproj", "{8609C611-E22B-4BD7-8A64-37833CD886A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmIntegrationTestFakeAuthentication.Client", "Client\BlazorWasmIntegrationTestFakeAuthentication.Client.csproj", "{F5B4754D-1809-49FA-B999-C11D88ED779F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmIntegrationTestFakeAuthentication.Shared", "Shared\BlazorWasmIntegrationTestFakeAuthentication.Shared.csproj", "{8BEB941B-FE44-458F-9D2B-6D492C84DA16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers.NUnit", "..\Controller.NUnit\Controllers.NUnit.csproj", "{DA8A46F2-C783-4345-A2AB-2E9239A41830}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8609C611-E22B-4BD7-8A64-37833CD886A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8609C611-E22B-4BD7-8A64-37833CD886A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8609C611-E22B-4BD7-8A64-37833CD886A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8609C611-E22B-4BD7-8A64-37833CD886A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B4754D-1809-49FA-B999-C11D88ED779F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B4754D-1809-49FA-B999-C11D88ED779F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B4754D-1809-49FA-B999-C11D88ED779F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B4754D-1809-49FA-B999-C11D88ED779F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEB941B-FE44-458F-9D2B-6D492C84DA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEB941B-FE44-458F-9D2B-6D492C84DA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEB941B-FE44-458F-9D2B-6D492C84DA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEB941B-FE44-458F-9D2B-6D492C84DA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8A46F2-C783-4345-A2AB-2E9239A41830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8A46F2-C783-4345-A2AB-2E9239A41830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8A46F2-C783-4345-A2AB-2E9239A41830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8A46F2-C783-4345-A2AB-2E9239A41830}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBCE4975-F001-42FC-92B0-53EF1872CDEF}
+	EndGlobalSection
+EndGlobal
