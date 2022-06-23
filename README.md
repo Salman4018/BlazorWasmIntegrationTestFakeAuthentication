@@ -1,0 +1,2 @@
+# BlazorWasmIntegrationTestFakeAuthentication
+BlazorWasmIntegrationTestFakeAuthentication
