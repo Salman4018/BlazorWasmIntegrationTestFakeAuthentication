@@ -1,7 +1,6 @@
-﻿using System.Net.Http.Json;
-using BlazorWasmIntegrationTestFakeAuthentication.Shared;
-using Controller.NUnit;
+﻿using BlazorWasmIntegrationTestFakeAuthentication.Shared;
 using NUnit.Framework;
+using System.Net.Http.Json;
 
 namespace Controllers.NUnit
 {
