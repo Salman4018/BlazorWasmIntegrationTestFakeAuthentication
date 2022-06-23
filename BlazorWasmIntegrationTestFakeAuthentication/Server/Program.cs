@@ -7,6 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
+builder.Services.AddHttpsRedirection(opts =>
+{
+    opts.HttpsPort = 5001;
+    opts.RedirectStatusCode = StatusCodes.Status308PermanentRedirect;
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
